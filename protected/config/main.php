@@ -50,6 +50,11 @@ return array(
 		),
 		*/
 
+        'viewRenderer'=>array(
+            'class'=>'application.vendor.Smarty.ESmartyViewRenderer',
+            'fileExtension' => '.tpl',
+        ),
+
 		// database settings are configured in database.php
 		'db'=>require(dirname(__FILE__).'/database.php'),
 
